@@ -1,15 +1,12 @@
 body{
     background-color: #f7f5fc;
-    width: 99%;
+    width: 98vw;
 }
-.maincont{
-    width: 99%;
-    height: 100%;
-    margin: 0px;
-}
+
 .nav{
     display: flex;
-    width: 100%;
+    width: 99vw;
+    height: 90px;
 }
 .logo{
     flex: 3;
@@ -49,15 +46,14 @@ body{
 .sec1{
     position: absolute;
     display: flex;
-    height: 80vh;
-    width: 99vw;
-    margin: 0px;
-    padding: 40px;
+    height: 70vh;
+    width: 90vw;
+    padding: 50px;
 }
 .cont1{
     height: 100%;
     flex: 1;
-    padding-left: 20px;
+    padding-left: 40px;
 
 }
 .cont2{
@@ -77,4 +73,10 @@ body{
 }
 .applestore{
     height: 40px;
+}
+.vid{
+    border-radius: 7px;
+}
+.text2{
+    position: absolute;
 }
