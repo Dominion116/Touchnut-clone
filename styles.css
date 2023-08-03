@@ -1,12 +1,15 @@
 body{
     background-color: #f7f5fc;
     width: 98vw;
+    display: grid;
+    place-items: center;
 }
 
 .nav{
     display: flex;
-    width: 99vw;
+    width: 94vw;
     height: 90px;
+    margin: 0px 20px 0px 20px;
 }
 .logo{
     flex: 3;
@@ -44,11 +47,12 @@ body{
     border: none;
 }
 .sec1{
-    position: absolute;
+    position: relative;
     display: flex;
+    margin: 20px 20px 20px 20px;
     height: 70vh;
-    width: 90vw;
-    padding: 50px;
+    width: 94vw;
+    padding: 0px;
 }
 .cont1{
     height: 100%;
@@ -61,8 +65,8 @@ body{
     display: flex;
 }
 .hero{
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
     font-size: 45px;
 }
 .tagline{
@@ -73,10 +77,43 @@ body{
 }
 .applestore{
     height: 40px;
+    width: auto;
 }
 .vid{
     border-radius: 7px;
 }
-.text2{
-    position: absolute;
+.text1{
+    font-size: 19px;
+    font-weight: 700;
+}
+.sec2{
+    height: 95vh;
+    width: 90vw;
+    display: flex;
+    margin-top: 30px;
+}
+.sec2-1{
+    flex: 1;
+}
+.sec2-1 .img1{
+   height: 100%; 
+   border-radius: 7px;
+   width: 95%;
+}
+.sec2-2{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+.sec2-3{
+    flex: 1;
+}
+.sec2-4{
+    flex: 2;
+}
+.sec2-2 .img2{
+    height: 100%;
+    width: 98%;
+    border-radius: 7px;
 }
